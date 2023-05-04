@@ -1,0 +1,19 @@
+// .directory-container {
+//     width: 100%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;    
+// }
+                
+
+  .directory-container {
+    margin: 0 20%;
+    width: 60%;
+    display:inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+
