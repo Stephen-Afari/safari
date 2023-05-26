@@ -3,7 +3,7 @@ The Safari App is an Ecommerce frontend platform for showcasing, marketing and s
 User: Interface: Displays the three boroad categories of tour experiences. Clicking on a category takes you to the tour page that displays the relavant tours in that category.
 
 ![safar_user_Interface](https://github.com/Stephen-Afari/safari/assets/62534292/2bfd750f-fb54-4ab6-9b3f-78cb082c4952)
-![Safari_exploratory123](https://github.com/Stephen-Afari/safari/assets/62534292/2481af72-bf4f-4108-98b3-9f6ce21fa678)
+![Safari_Exp](https://github.com/Stephen-Afari/safari/assets/62534292/5d3fc5ef-05b9-4c92-bb19-aa4d08c0322c)
 Tour Page: Displays all the tours under each category
 
 ![Safari_TourPage1](https://github.com/Stephen-Afari/safari/assets/62534292/bcd1b531-e710-4014-ac11-7041d0d65882)
