@@ -1,6 +1,6 @@
 The Safari App is an Ecommerce frontend platform for showcasing, marketing and selling interesting tour experiences. It is built using React and styled with Sass. It provides three broad categories of tours : Adventure, Sporty and Exploratory.
 
-User: Interface: Displays the three boroad categories of tour experiences. Clicking on a category takes you to the tour page that displays the relavant tours in that category.
+User: Interface: Displays the three categories of tour experiences. Clicking on a category takes you to the tour page that displays the relavant tours in that category.
 
 ![Safari_UI](https://github.com/Stephen-Afari/safari/assets/62534292/9d2851b8-06a5-4e85-a3fe-d103d15e5715)
 
