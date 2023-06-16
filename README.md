@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+The Safari App is an Ecommerce frontend platform for showcasing, marketing and selling interesting tour experiences. It is built using React and styled with Sass. It provides three broad categories of tours : Adventure, Sporty and Exploratory.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+User Interface: Displays the three categories of tour experiences. Clicking on a category takes you to the tour page that displays the relavant tours in that category.
 
-## Available Scripts
+![Safari_UI](https://github.com/Stephen-Afari/safari/assets/62534292/9d2851b8-06a5-4e85-a3fe-d103d15e5715)
 
-In the project directory, you can run:
+Tour Page: Displays all the tours under each category. You can click on a particular tour to add it to the Cart.
 
-### `yarn start`
+![Safari_TourPage1](https://github.com/Stephen-Afari/safari/assets/62534292/bcd1b531-e710-4014-ac11-7041d0d65882)
+![Safari_TourPage2](https://github.com/Stephen-Afari/safari/assets/62534292/4361720a-36bb-4505-8640-9ff08650fa82)
+![Safari_TourPage3](https://github.com/Stephen-Afari/safari/assets/62534292/0963cc77-4b23-4f8e-b885-5698111eff6e)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Page per Category: Clicking on a given category, takes you to a unique page displaying only the selected category.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Safari_Sporty](https://github.com/Stephen-Afari/safari/assets/62534292/899810ba-8df3-409a-96cc-6a8630a76fce)
+![Safari_exploratory](https://github.com/Stephen-Afari/safari/assets/62534292/6525c77e-9acd-42a5-8738-da8cd45e944f)
+![Safari_adventure2](https://github.com/Stephen-Afari/safari/assets/62534292/7acb4dec-79cb-4aaf-8b53-33ba0269924c)
 
-### `yarn test`
+Cart-dropdown: All tours added to the cart are previewed in the cart dropdown here. Inside the cart icon, we can also see the number of tours added.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![safari_CartDropdown](https://github.com/Stephen-Afari/safari/assets/62534292/9ee512f2-f6f0-4a4b-a5e3-95c1657a7875)
 
-### `yarn build`
+Checkout-Page: We can see the the selected tours, their quantities, and cost. We can use the left and right arrows to increase or decrease the quantity or use the remove icon to remove it. The total cost of all selected tours are calculated and displayed down the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![safari_CheckoutPage](https://github.com/Stephen-Afari/safari/assets/62534292/79336ced-fec9-47e7-bc5e-179eb3b5d602)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
