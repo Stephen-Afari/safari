@@ -1,13 +1,16 @@
 import './category-preview.styles.scss'
 
-import { Fragment, useContext } from 'react'
+import { Fragment} from 'react'
 import CategoryPreview from '../../category-preview/category-preview.component'
-import { CategoriesContext } from '../../../contexts/categories.context'
+//import { CategoriesContext } from '../../../contexts/categories.context'
+import {  useSelector } from 'react-redux/es/hooks/useSelector'
+import { selectCategoriesMap } from '../../../store/categories/category.selector'
 
 
 const CategoriesPreview = ()=>{
     //hook into the product context
-const {categoriesMap} = useContext(CategoriesContext)
+  const categoriesMap = useSelector(selectCategoriesMap)
+// const {categoriesMap} = useContext(CategoriesContext)
 
 return (
   <Fragment >

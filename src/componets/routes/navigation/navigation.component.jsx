@@ -3,15 +3,19 @@ import { Outlet, Link } from "react-router-dom";
 // import {ReactComponent as MyLogo} from '../../../assets/VirtualSpliceLogo3.PNG';
 import { ReactComponent as MyLogo } from '../../../assets/crown.svg';
 // import './navigation.styles.jsx'
-import CartIcon from "../../cart-icon/cart-icon.compnents";
+//import CartIcon from "../../cart-icon/cart-icon.components";
+import CartIcon from "../../cart-icon/cart-icon.compnents"
 import CartDropdown from "../../dropdown/cart-dropdown.component";
-import { useContext } from "react"; 
-import { CartContext } from "../../../contexts/cart.context";
+// import { useContext } from "react"; 
+// import { CartContext } from "../../../contexts/cart.context";
+import { useSelector } from "react-redux/es/hooks/useSelector";
+import { selectCartIsOpen } from "../../../store/cart/cart.selector";
 import { NavigationContainer, LogoContainer , NavLinksContainer, NavLink} from "./navigation.styles.jsx";
 //import './navigation.styles.scss';
 
 const Navigation = () => {
-  const { isCartOpen } = useContext(CartContext)
+  
+  const isCartOpen = useSelector(selectCartIsOpen)
   return (
     <Fragment>
        <NavigationContainer>
