@@ -12,15 +12,19 @@ import { useEffect } from 'react';
 import { setCategoriesMap } from '../../../store/categories/category.action';
 import { getCategoriesAndDocuments } from '../../data.utils/json.utils';
 import {useDispatch} from 'react-redux'
+import { fetchCategories } from '../../../store/categories/category.action';
+import { fetchCategoriesStart } from '../../../store/categories/category.action';
 // import documents from "../../tour-data2.json";
 
 const Tour = ()=>{
 const  dispatch = useDispatch();
   useEffect(()=> {
-    const categories = getCategoriesAndDocuments()
-         console.log( categories)
-        //This ensures that the newly created categoriesMap is set into the initial empty object
-        dispatch(setCategoriesMap(categories))
+    // const categories = getCategoriesAndDocuments()
+    //      console.log( categories)
+    //     //This ensures that the newly created categoriesMap is set into the initial empty object
+    //     dispatch(setCategoriesMap(categories))
+    // dispatch(fetchCategories())
+    fetchCategoriesStart()
         
 } ,[])
 return (
