@@ -1,3 +1,7 @@
+Deployed WebSite
+
+Website: https://safari-xi.vercel.app/
+
 The Safari App is an Ecommerce frontend platform for showcasing, marketing and selling interesting tour experiences. It is built using React and styled with Sass. It provides three broad categories of tours : Adventure, Sporty and Exploratory.
 
 User Interface: Displays the three categories of tour experiences. Clicking on a category takes you to the tour page that displays the relavant tours in that category.
